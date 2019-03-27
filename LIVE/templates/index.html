@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flask Live Data</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/" align="center">Flask-Live-Chart</a>
+      </div>   
+    </div>
+  </div>
+
+  <div class="jumbotron text-center">
+    <div class="container-fluid">
+      <br />
+      <p>Live data using Flask and Highcharts.</p>
+    </div> 
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>EEG Neurosky Mindwave</h3>
+             <img src ="{{ user_image }}" alt ="user_image">
+        </div>
+        <div class="col-sm-6">
+            <h3>Description</h3>
+            <p>NeuroSky technology enables product developers and company service providers to create solutions that can capture, 
+            measure, and uncover the widest range of personal health and fitness metrics. Easy to understand and use, 
+            the advanced biometrics made possible by NeuroSky technology provides consumers with actionable information 
+            to help them evaluate their fitness - and if necessary, change their behavior to take the path to a healthier life.</p>
+            <p>NeuroSky's mission is to make innovative biosensor technology available on a mass market scale. 
+            Our leadership in electroencephalogram (EEG) biosensors has produced hundreds of breakthroughs in 
+            monitoring consumer-level brain waves. And our latest advances in biosensors and electrocardiogram 
+            (ECG) biometric algorithms now enable OEMs, ODMs and service providers to develop solutions that can 
+            monitor and analyze a variety of bio-cardio signals that were not previously available on products 
+            that consumers can wear. Our ECG Biosensor Cardiochip ™ and our biometric roadmap algorithm will 
+            accelerate innovative differentiation for our customers by enabling them to develop the types of 
+            Health solutions demanded by consumers today.</p>
+            <br><br>
+        </div>
+ 
+    </div>
+
+  <div class="jumbotron text-right">
+    <div class='container-fluid'>
+      <a href="/live" target="">
+        <button type="button" class="btn btn-info">Live data using Flask and Highcharts.</button>
+      </a>
+    </div>
+  </div>
+  
+
+  <footer>
+    <center>
+      <p>&copy; Proyek Dua</p>
+    </center>
+  </footer>
+  </div> <!-- /container -->
+ 
+  <script src="/static/js/highcharts.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
